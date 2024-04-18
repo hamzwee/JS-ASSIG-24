@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Question 1 -->
+    <a href="#" onclick="alert('Are you sure');">Link</a>
+
+    <!-- Question 2 -->
+    <a href="#" onclick="alert('Thanks for purchasing a phone from us')"><img
+            src="https://www.purchase.com.pk/wp-content/uploads/2021/12/apple-iphone-x.jpg" alt="" class="first">
+        <img src="https://www.purchase.com.pk/wp-content/uploads/2021/12/apple-iphone-8-plus.jpg" alt="" class="first">
+        <img src="https://www.pakmobizone.pk/wp-content/uploads/2019/09/Apple-iphone11-Black-1.png" alt=""
+            class="first">
+        <img src="https://gh.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/348624/2.jpg?8038" alt=""
+            class="first">
+    </a>
+
+    <!-- Question 3 -->
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name </th>
+            <th>Class</th>
+            <td> </td>
+        </tr>
+        <tr id="row1">
+            <td>1</td>
+            <td>Jhon Doe</td>
+            <td>10</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+        </tr>
+        <tr id="row2">
+            <td>2</td>
+            <td>Mark Paul</td>
+            <td>9</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+        </tr>
+        <tr id="row3">
+            <td>3</td>
+            <td>Elon Musk</td>
+            <td>5</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+        </tr>
+        <tr id="row4">
+            <td>4</td>
+            <td>Daniel Dine</td>
+            <td>8</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- Question 4 -->
+    <img onmouseover="src='https:/www.purchase.com.pk/wp-content/uploads/2021/12/apple-iphone-8-plus.jpg'"
+        onmouseout="src='https:/www.pakmobizone.pk/wp-content/uploads/2019/09/Apple-iphone11-Black-1.png'"
+        src="https://www.pakmobizone.pk/wp-content/uploads/2019/09/Apple-iphone11-Black-1.png" alt="">
+
+    <!-- Question 5 -->
+    <button onclick="increment(+prompt('Enter a number'))">
+        Increment
+    </button>
+    <button onclick="decrement(+prompt('Enter a number'));">
+        Decrement
+    </button>
+
+    <!-- Chapter 49-52
+    Question 1 -->
+    <form action="">
+        <input type="text" placeholder="Enter your full name" id="form">
+        <br>
+        <input type="email" placeholder="Enter your email address" id="form1">
+        <br>
+        <button type="submit" onclick="display()">Submit form</button>
+    </form>
+
+    <!-- Question 2 -->
+    <h1>Content Area</h1>
+    <h3>Iphone XS</h3>
+    <h4>Iphone XS a model of 2019</h4>
+    <a href="#" onclick="document.write('<br>64 or 256 GB variant<br>Black,Silver and Gold Colour ');">Readmore</a>
+
+
+    <!-- Question 3 -->
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name </th>
+            <th>Class</th>
+            <td> </td>
+        </tr>
+        <tr id="row">
+            <td>1</td>
+            <td>Jhon Doe</td>
+            <td>10</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+            <td><button onclick="editRow()">Edit</button></td>
+        </tr>
+        <tr id="row">
+            <td>2</td>
+            <td>Mark Paul</td>
+            <td>9</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+            <td><button onclick="editRow()">Edit</button></td>
+        </tr>
+        <tr id="row">
+            <td>3</td>
+            <td>Elon Musk</td>
+            <td>5</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+            <td><button onclick="editRow()">Edit</button></td>
+        </tr>
+        <tr id="row">
+            <td>4</td>
+            <td>Daniel Dine</td>
+            <td>8</td>
+            <td><button onclick="deleteRow()">Delete</button></td>
+            <td><button onclick="editRow()">Edit</button></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
